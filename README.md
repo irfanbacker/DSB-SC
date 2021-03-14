@@ -1,1 +1,4 @@
-# DSB-SC
+# DSB-SC modulation
+
+##Introduction
+In communication systems information is transmitted from one place to another using electrical signals(telephone, TV and radio broadcast etc.). Usually, message signals are not suitable for transmission due to their propagation qualities (a large wavelength). Also, since these signals generally exist in the same frequency range it is necessary to transmit them using different frequency allocations to avoid interference. One of the methods used to solve these problems is linear modulation, which is merely the frequency translation of the spectrum of the message signal to a usually much higher frequency. The translated spectrum can be modified before transmission in different forms resulting in different linear modulation schemes. Specifically, there are four linear modulation methods: double-sideband (DSB) (also known as double-sideband with suppressed carrier DSB-SC), DSB-LC (large carrier), single-sideband (SSB) and vestigial-sideband (VSB). Here, we will be implementing the DSB-SC AM on Simulink and observing it’s results.
